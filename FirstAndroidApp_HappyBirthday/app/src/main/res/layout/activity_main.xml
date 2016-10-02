@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.suyux.firstandroidapp_happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/birthdayparty"
+        android:id = "@+id/BackgroundPicture" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+        android:text="To My Best Friend !~"
+        android:id="@+id/BirthdayPerson" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text= "From Standford"
+        android:id="@+id/BirthdayGiver" />
+
+</RelativeLayout>
